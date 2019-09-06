@@ -6,6 +6,17 @@
       "use": "@now/node"
     }
   ],
+  "routes": [
+    {
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
+      },
+      "src": "/.*",
+      "dest": "app.js"
+    }
+  ],
   "env": {
     "DATABASE": "mongodb+srv://siddhant:goldtree9@cluster0-cwdsl.mongodb.net/ecommerce?retryWrites=true&w=majority",
     "PORT": "8000",
