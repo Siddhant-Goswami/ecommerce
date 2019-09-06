@@ -5,5 +5,10 @@
       "src": "app.js",
       "use": "@now/node"
     }
-  ]
+  ],
+  "env": {
+    "DATABASE": "mongodb+srv://siddhant:goldtree9@cluster0-cwdsl.mongodb.net/ecommerce?retryWrites=true&w=majority",
+    "PORT": "8000",
+    "JWT_SECRET": "abcdefg"
+  }
 }
