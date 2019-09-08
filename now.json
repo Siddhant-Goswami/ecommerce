@@ -8,13 +8,34 @@
   ],
   "routes": [
     {
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
-      },
-      "src": "/.*",
-      "dest": "app.js"
+      "src": "/api/products",
+      "dest": "/index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/api/product/(?<id>[^/]+)",
+      "dest": "/index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/api/products/related/(?<id>[^/]+)",
+      "dest": "/index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/api/signin",
+      "dest": "/index.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/api/signup",
+      "dest": "/index.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/api/signout",
+      "dest": "/index.js",
+      "methods": ["POST"]
     }
   ],
   "env": {
