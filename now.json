@@ -23,6 +23,11 @@
       "methods": ["GET"]
     },
     {
+      "src": "/api/products/categories",
+      "dest": "/index.js",
+      "methods": ["GET"]
+    },
+    {
       "src": "/api/signin",
       "dest": "/index.js",
       "methods": ["POST"]
