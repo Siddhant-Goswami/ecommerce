@@ -46,6 +46,9 @@
   "env": {
     "DATABASE": "mongodb+srv://siddhant:goldtree9@cluster0-cwdsl.mongodb.net/ecommerce?retryWrites=true&w=majority",
     "PORT": "8000",
+    "BRAINTREE_PUBLIC_KEY": "qjy7w99w2jppprjp",
+    "BRAINTREE_PRIVATE_KEY": "61d261002bf6c7f0f3284a92907d9c57",
+    "BRAINTREE_MERCHANT_ID": "3968zbjkrq735twk",
     "JWT_SECRET": "abcdefg"
   }
 }
