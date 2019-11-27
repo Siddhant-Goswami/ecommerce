@@ -7,7 +7,6 @@ describe("GET /api/products", function() {
     supertest(app)
       .get("/api/products")
       .expect(200)
-      .expect('Content-Type', 'application/json; charset=utf-8')
       .end(function(err, res){
         if (err) done(err);
         done();
