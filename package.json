@@ -1,13 +1,14 @@
 {
   "name": "ecommerce",
   "version": "1.0.0",
-  "description": "",
+  "description": "REST API for ecommerce backend.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "test": "jshint app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Siddhant Goswami",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -19,6 +20,7 @@
     "express-jwt": "^5.3.1",
     "express-validator": "^5.3.1",
     "formidable": "^1.2.1",
+    "jshint": "^2.10.3",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
