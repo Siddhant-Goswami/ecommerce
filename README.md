@@ -27,3 +27,5 @@ $ npm install
 ### 3. Run
 
 Run `npm start` in your terminal`
+
+[![Build Status](https://travis-ci.com/Siddhant-Goswami/ecommerce.svg?branch=master)](https://travis-ci.com/Siddhant-Goswami/ecommerce)
